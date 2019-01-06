@@ -58,7 +58,7 @@ this.coverLetterChangeHandler = this.coverLetterChangeHandler.bind(this);
         var counter=localStorage.getItem("counter");
         if(counter && localStorage.getItem("HALFFILLEDRECRUITER")!="" && localStorage.getItem("HALFFILLEDJOBTITLE")!= "")
         {
-            fetch('http://localhost:3001/incomplete/halffilled', {
+            fetch(`${BASE_URL}/incomplete/halffilled`, {
                 method: 'post',
                 headers: {'Content-Type': 'application/json'},
                 credentials : 'include',

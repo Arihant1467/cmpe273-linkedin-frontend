@@ -229,7 +229,7 @@ class JobListing extends Component {
         const obj = this.state.postings[position]
         console.log("RECRUITER")
         localStorage.setItem("RECRUITERNAME",obj.recruiterName)
-        var url = 'http://localhost:3001/userdata/job'
+        var url = BASE_URL+"/userdata/job";// 'http://localhost:3001/userdata/job'
         fetch(url, {
           method: 'post',
           credentials : 'include',
