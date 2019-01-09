@@ -3,15 +3,21 @@
 ### LinkedIn-Clone
 
  - Developed user profile, connections, job listing and application modules using <b>MERN Stack</b> and <b>Kafka</b>. 
- - Implemented Redis for data caching, containerized the application services and hosted on AWS. 
+ - Implemented Redis for data caching, containerized the application services and hosted on AWS and heroku. 
  - Implemented MongoDB replication and tested the performance on JMeter and Mocha. 
 
-Developed by a team of 6 (please check contributors for more details).
+Developed in a team of 6.
+* [Arihant Sai](https://github.com/Arihant1467)
+* [Mudambi Srinivas](https://github.com/mssrinivas)
+* [Sayali Patil](https://github.com/SayaliPatil)
+* [Surabhi Sinha]()
+* [Shivam Waghela](https://github.com/shivamwaghela)
+* [Neha Sharma](https://github.com/Nsharma335)
 
 
 ## Application Link
 
-[a link](https://cmpe-273-linkedin.herokuapp.com/)
+[CMPE-273 LinkedIn](https://cmpe-273-linkedin.herokuapp.com/)
 
 ## Application Architecture Diagram
  
@@ -115,8 +121,8 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 ## Front End 
 ## Install
 
-    $ git clone https://github.com/mssrinivas/LinkedIn-Clone.git
-    $ cd LinkedIn-Clone/linkedin-frontend
+    $ git clone https://github.com/Arihant1467/cmpe273-linkedin-frontend.git
+    $ cd cmpe-273-linkedin-frontend
     $ npm install
 
 ## Start & watch
@@ -127,10 +133,15 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 ## Back End 
 ## Install
 
-    $ git clone https://github.com/mssrinivas/LinkedIn-Clone.git
-    $ cd LinkedIn-Clone/linkedin-backend/
+    $ git clone https://github.com/Arihant1467/cmpe273-linkedin-backend.git
+    $ cd cmpe-273-linkedin-backend
     $ npm install
 
 ## Start & watch
 
-    $ npm start
+    $ node app.js
+
+## Screenshots
+
+### Note
+The version hosted on heroku does not have kafka because kakfa is not provided as a free add on with heroku.
